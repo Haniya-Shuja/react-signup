@@ -1,0 +1,119 @@
+/* *{
+    margin: 0;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+    
+}
+.signup-form{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.2);
+    text-align: center;
+}
+.signup-form h2{
+    color: #333;
+}
+.signup-form label{
+    display: flex;
+    margin: 10px;
+}
+.signup-form input{
+  width: 100px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+.signup-form button{
+    background-color: rgb(50, 201, 40);
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+} */
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .signup-form {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker text for readability */
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555; /* Slightly lighter for contrast */
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .signup-form input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .signup-form p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signup-form a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
